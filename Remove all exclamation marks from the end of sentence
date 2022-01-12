@@ -7,3 +7,9 @@ function remove (s) {
     }  
   }
 }
+
+\\option #2
+
+function remove(s){
+  return s.replace(/!+$/, '');
+}
